@@ -48,7 +48,7 @@ window.onload = () => {
       content: {
         title: "정우 ♥ 혜영의 모바일 청첩장",
         description: "2025년 6월 7일 토요일♡",
-        imageUrl: "https://i.imgur.com/5UdfjZC.png",
+        imageUrl: "https://i.imgur.com/C1dVECM.png",
         imageWidth: 1200,
         imageHeight: 630,
         link: {
