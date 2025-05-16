@@ -343,7 +343,7 @@
       <!-- map 길찾기 -->
       <div class="animate-on-scroll" id="MapIconDiv" style="background-color: #FF799B;">
         <div>
-          <a class="maplink" href="https://kko.kakao.com/WpmAqoKkU4">
+          <a class="maplink">
             <div>
               <button id="kakaoMapButton" type="button">
                 <!-- <img
@@ -357,6 +357,10 @@
           </a>
         </div>
       </div>
+      <sciprt>
+        const mapLinkEl = document.querySelector(".maplink");
+        mapLinkEl.addEventListener("click", () => { window.location.href = "https://kko.kakao.com/WpmAqoKkU4" });
+      </sciprt>
 
       <!-- 이동수단 정보 -->
       <div class="animate-on-scroll">
